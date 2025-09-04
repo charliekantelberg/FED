@@ -36,15 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Booking.com
-
+trivago
   #### Screenshot(s) van de eerste pagina (small screen): 
-Booking.com
-  <img src= "readme-images/bookingfirst.jpg" width="375px" alt="omschrijving van de pagina">
+trivago
+<img src= "readme-images/bookingfirst.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Booking.com
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+trivago
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
