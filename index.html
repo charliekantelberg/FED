@@ -1,21 +1,116 @@
 <!DOCTYPE html>
-<html lang="nl">
-	
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2526</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-trivago.png"> <!--favicoon foto van internet-->
+    <title>Trivago - Hotelzoeker</title>
 </head>
-
 <body>
-	<h1>Howdy FED2526</h1>
+<header>
+    <img src="images/trivago-logo.png" alt="logo van trivago" width="120">
+    <nav>
+        <a href="/favorieten" aria-label="Favorieten">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" 
+                transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	                <path d="M 45 84.334 L 6.802 46.136 C 2.416 41.75 0 35.918 0 29.716 c 0 -6.203 2.416 -12.034 6.802 -16.42 c 4.386 -4.386 10.217 
+                    -6.802 16.42 -6.802 c 6.203 0 12.034 2.416 16.42 6.802 L 45 18.654 l 5.358 -5.358 c 4.386 -4.386 10.218 -6.802 16.42 -6.802 c 6.203 0 12.034 
+                    2.416 16.42 6.802 l 0 0 l 0 0 C 87.585 17.682 90 23.513 90 29.716 c 0 6.203 -2.415 12.034 -6.802 16.42 L 45 84.334 z M 23.222 10.494 c -5.134 0 -9.961 2 
+                    -13.592 5.63 S 4 24.582 4 29.716 s 2 9.961 5.63 13.592 L 45 78.678 l 35.37 -35.37 C 84.001 39.677 86 34.85 86 29.716 s -1.999 -9.961 -5.63 -13.592 l 0 0 c -3.631 -3.63 -8.457 
+                    -5.63 -13.592 -5.63 c -5.134 0 -9.961 2 -13.592 5.63 L 45 24.311 l -8.187 -8.187 C 33.183 12.494 28.356 10.494 23.222 10.494 z" 
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" 
+                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+                </g>
+            </svg>
+        </a>
+        <a href="/account" aria-label="Account">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <circle cx="12" cy="7" r="4"/>
+                <path d="M5.5 21a8.38 8.38 0 0 1 13 0"/>
+            </svg>
+        </a>
+        <a href="/menu" aria-label="Menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+        </a>
+    </nav>
+</header>
+<main>
+  <h2>Save up to 35% on your next hotel stay</h2>
+  <p>We compare hotel prices from 100s of sites</p>
+  <form>
+    <fieldset>
+        <legend>Hotel</legend>
+         <label for="bestemming">Hotel</label>
+         <input type="text" id="bestemming" name="bestemming" value="Valkenburg aan de Geul">
+    </fieldset>
 
-	<script defer src="scripts/script.js"></script>
+    <fieldset>
+        <legend>Check-in/out</legend>
+        <label for="incheck">Check-in</label>
+        <input type="date" id="incheck" name="incheck" value="2025-09-20">
+
+        <label for="uitcheck">Check-out</label>
+        <input type="date" id="uitcheck" name="uitcheck" value="2025-09-23">
+    </fieldset>
+            
+    <fieldset>
+        <legend>Guests and rooms</legend>
+        <label for="personen">Gasten</label>
+        <input type="number" id="personen" name="personen" min="1" value="2">
+
+        <label for="kamers">Kamers</label>
+        <input type="number" id="kamers" name="kamers" min="1" value="1">
+    </fieldset>
+
+            <button type="submit">Search</button>
+        </form>
+
+    <section>
+        <h2>Recently viewed</h2>
+        <article>
+          
+            <h3>Valkenburg aan de Geul</h3>
+            
+            <p>20 Sept - 23 Sept</p>
+            <p>2 Guests, 1 Room</p>
+                <img src="images/valkenburg-trivago.jpg" alt="foto van valkenburg aan de Geul">
+            
+        </article>
+        <article>
+           
+                <h3>Groningen</h3>
+            <!--gebruik code <time>-->
+            <p>30 Sept - 3 Oct</p>
+            <p>2 Guests, 1 Room</p>
+            <figure>
+                <img src="images/groningen-trivago.jpg" alt="foto van Groningen">
+            </figure> <!--liever geen figure gebruiken-->
+        </article>
+        <article>
+            <figcaption>  <!--gebruik je om een beschrijving te geven bij afbeelding-->
+                <h4>Flonk Hotel Groningen</h4>
+                <p><strong>8.2 - Very good</strong> (680 reviews)</p>
+                <p>**** Hotel</p>
+            </figcaption>
+        </article>
+        <p><a href="#">Show more</a></p>
+    </section>
+</main>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="#">Over ons</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</footer>
+
+  <script defer src="scripts/script.js"></script> 
 </body>
-	
-</html>
