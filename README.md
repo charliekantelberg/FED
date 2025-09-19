@@ -36,8 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Booking.com
-
+Trivago
   #### Screenshot(s) van de eerste pagina (small screen): 
 trivago
   <img src="/images/screenshot-trivago.png" width="375px" alt="sreenshot van de pagina">
