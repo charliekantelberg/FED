@@ -36,14 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-trivago
+  Booking.com
+
   #### Screenshot(s) van de eerste pagina (small screen): 
 trivago
-<img src= "readme-images/bookingfirst.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="/images/screenshot-trivago.png" width="375px" alt="sreenshot van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-trivago
-<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  trivago
+  <img src="/images/screenshot2.png" width="375px" alt="omschrijving van de tweede pagina">
  
 </details>
 
@@ -54,9 +55,13 @@ trivago
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
+  niet heel toegankelijk
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  <img src="/images/bevinding-lijst.jpg">
+  <img src="/images/bevinding-lijst2.jpg">
+  <img src="/images/bevinding-lijst3.jpg">
 </details>
 
 
@@ -67,7 +72,14 @@ trivago
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="/images/ss-1.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="/images/ss-2.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="/images/ss-3.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="/images/ss-4.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="/images/ss-5.png" width="375px" alt="breakdown van de hele pagina">
+
+
+
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
